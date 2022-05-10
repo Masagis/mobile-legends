@@ -1,10 +1,10 @@
 import React from 'react'
-import HeroHome from '../src/containers/Hero'
+import DetailHero from '../../src/containers/HeroDetail'
 
 export default function Home() {
   return (
     <div className="container">
-      <HeroHome />
+      <DetailHero />
     </div>
   )
 }
